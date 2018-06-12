@@ -1,0 +1,3 @@
+#!/bin/bash
+# List contents of current directory
+ls
