@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepth 1  -iname "*.*" -printf "%f\n" && echo
+find -mindepth 1  -iname "*.*" -printf "%f\n"
