@@ -1,0 +1,2 @@
+#!/bin/bash
+cat -n test | cut -c 6- | grep -e "^[24680]" | cut -f 2
