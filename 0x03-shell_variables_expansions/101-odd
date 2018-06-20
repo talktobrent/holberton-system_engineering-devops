@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n test | cut -c 6- | grep -e "^[13579]" | cut -c 3-
+cat -n | cut -c 6- | grep -e "^[13579]" | cut -f 2
