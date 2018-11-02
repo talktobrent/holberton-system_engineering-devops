@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays "Holberton School" ten times with a while loop
+# Displays bad and good numbers in a count
 counter=1
 while [ $counter -le 10 ]
 do	

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays "Holberton School" ten times with a while loop
+# Displays hours and minutes
 hour=0
 min=1
 while [ $hour -le 12 ]
