@@ -4,11 +4,11 @@ counter=1
 on=0
 while [ $counter -le 100 ]
 do	
-	if [ $(( $counter % 3 )) -eq 0 ]; then
+	if [ $(( counter % 3 )) -eq 0 ]; then
 		echo -n "Fizz"
 		on=1
 	fi
-	if [ $(( $counter % 5 )) -eq 0 ]; then
+	if [ $(( counter % 5 )) -eq 0 ]; then
 		echo -n "Buzz"
 		on=1
 	fi
