@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Display bash process
+# shellcheck disable=SC2009
+ps u -C "bash" -H | tail -n +2
