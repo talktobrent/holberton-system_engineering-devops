@@ -1,4 +1,5 @@
 # 0x06. Regular expression
+For this project, you have to build your regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. Note that other regular expression libraries sometimes have different properties
 ## 0. Simply matching Holberton
 The regular expression must match Holberton
 ## 1. Repetition Token #0
