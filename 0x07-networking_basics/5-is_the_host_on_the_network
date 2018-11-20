@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Pings an IP address passed as an argument (5 times)
 if [ ! -z "$1" ]; then
 	ping "$1" -c 5
 else
