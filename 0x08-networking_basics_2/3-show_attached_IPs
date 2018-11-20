@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Shows active IPv4 IPs
+ifconfig | grep "\sinet\s" | cut -d ' ' -f10

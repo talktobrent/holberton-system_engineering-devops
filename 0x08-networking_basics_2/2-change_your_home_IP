@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Changes address of localhost and facebook.com in /etc/hosts file
+printf "127.0.0.2\tlocalhost\n8.8.8.8\t\tfacebook.com\n" > ~/hosts.temp
+grep -Ev "\sfacebook.com$|\slocalhost$" /etc/hosts >> ~/hosts.temp
+mv -f ~/hosts.temp /etc/hosts
