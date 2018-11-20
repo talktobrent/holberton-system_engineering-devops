@@ -9,6 +9,7 @@ At the end of this project you are expected to be able to explain, without the h
 - TCP/UDP Ports
 - What tool/protocol is often used to check if a device is connected to a network
 ## 0. OSI model
+## 1. Types of network
 ## 2. MAC and IP address
 ## 3. UDP and TCP
 ## 4. TCP and UDP ports
