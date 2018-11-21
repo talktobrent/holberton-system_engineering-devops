@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 # Changes address of localhost and facebook.com in /etc/hosts file
-printf "127.0.0.2\tlocalhost\n8.8.8.8\t\tfacebook.com\n" > ~/hosts.temp
-grep -Ev "\.[[:digit:]]{1,3}\s+(facebook.com|localhost)(\s|$)" /etc/hosts >> ~/hosts.temp
+printf "127.0.0.2\tlocalhost\t" > ~/hosts.temp
+{
+	grep -E "\.[[:digit:]]{1,3}\s+localhost(\s|$)" /etc/hosts | tr -s ' ' '\t' | cut -f3- | tr -d '\n'
+	echo ""
+	printf "8.8.8.8\t\tfacebook.com\t"
+	grep -E "\.[[:digit:]]{1,3}\s+facebook.com(\s|$)" /etc/hosts | tr -s ' ' '\t' | cut -f3- | tr -d '\n'
+	echo ""
+	grep -Ev "\.[[:digit:]]{1,3}\s+(facebook.com|localhost)(\s|$)" /etc/hosts
+} >> ~/hosts.temp
 mv -f ~/hosts.temp /etc/hosts
