@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# install nginx on server
+ssh -tt -i ~/.ssh/holberton ubuntu@35.237.72.232 << 'EOF'
+	sudo bash -c 'apt-get -y update'
+	sudo bash -c 'apt-get -y install nginx'
+	PLACE=$(grep -m 1 'root' /etc/nginx/sites-enabled/default | cut -d ' ' -f2 | tr -d ';')
+	sudo bash -c 'echo "Holberton School" > "$PLACE/index.html"'
+	exit
+EOF
