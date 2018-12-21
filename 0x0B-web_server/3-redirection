@@ -6,4 +6,5 @@ if sudo apt-get -y install nginx; then
 	sudo bash -c 'echo "Holberton School" > "'"$PLACE"'/index.html"'
 	new="location ~ '/redirect_me(?=\/|)' {\n\t\treturn 301 https://qz.com/;\n\t}"
 	sudo sed -i "/^\tserver_name localhost;$/a \\\n\\t$new" /etc/nginx/sites-enabled/default
+	sudo service nginx restart
 fi

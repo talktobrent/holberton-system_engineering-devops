@@ -4,4 +4,5 @@ sudo apt-get -y update
 if sudo apt-get -y install nginx; then
 	PLACE=$(grep -m 1 'root' /etc/nginx/sites-enabled/default | cut -d ' ' -f2 | tr -d ';')
 	sudo bash -c 'echo "Holberton School" > "'"$PLACE"'/index.html"'
+	sudo service nginx restart
 fi

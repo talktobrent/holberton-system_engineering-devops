@@ -10,4 +10,5 @@ if sudo apt-get -y install nginx; then
 	sudo sed -i "/^\tlocation \/ {$/a \\$new" /etc/nginx/sites-enabled/default
 	new="location @my404 {\n\t\tdefault_type text/html;\n\t\treturn 404 \"Ceci n'est pas une page\\\n\\\n\";\n\t}"
 	sudo sed -i "/^\tserver_name localhost;$/a \\\n\\t$new" /etc/nginx/sites-enabled/default
+	sudo service nginx restart
 fi
