@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
-# install nginx on server
+# install nginx on server and set up redirect
 sudo apt-get -y update
 if sudo apt-get -y install nginx; then
 	PLACE=$(grep -m 1 'root' /etc/nginx/sites-enabled/default | cut -d ' ' -f2 | tr -d ';')
 	sudo bash -c 'echo "Holberton School" > "'"$PLACE"'/index.html"'
+	new="location ~ '/redirect_me(?=\/|)' {\n\t\treturn 301 https://qz.com/;\n\t}"
+	sudo sed -i "/^\tserver_name localhost;$/a \\\n\\t$new" /etc/nginx/sites-enabled/default
 fi
