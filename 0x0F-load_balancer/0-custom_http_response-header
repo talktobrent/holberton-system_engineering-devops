@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# inserts custom http header into server block
+sed -E -i '\|^server\s*\{$|a\\tadd_header X-Served-By $hostname;' /etc/nginx/sites-available/default
+service nginx restart
