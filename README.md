@@ -1,1 +1,7 @@
-# Understanding basic concepts of shell
+# System engineering & DevOps
+### - Bash
+### - Scripting
+### - Networking
+### - Web stack
+### - Security
+### - Web stack debugging
