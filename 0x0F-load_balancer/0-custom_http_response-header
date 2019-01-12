@@ -11,5 +11,5 @@ if sudo apt-get -y install nginx; then
 	new="location @my404 {\n\t\tdefault_type text/html;\n\t\treturn 404 \"Ceci n'est pas une page\\\n\\\n\";\n\t}"
 	sudo sed -i "/^\tserver_name localhost;$/a \\\n\\t$new" /etc/nginx/sites-available/default
 	sed -E -i '\|^server\s*\{$|a\\tadd_header X-Served-By $hostname;' /etc/nginx/sites-available/default
+	service nginx restart
 fi
-service nginx restart
