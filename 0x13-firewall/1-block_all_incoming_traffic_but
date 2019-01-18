@@ -1,4 +1,4 @@
-ufw default deny
+ufw default deny incoming
 ufw allow 22,443,80/tcp
 ufw enable
 ufw status verbose
