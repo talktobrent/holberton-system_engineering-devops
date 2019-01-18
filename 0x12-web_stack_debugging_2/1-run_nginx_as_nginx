@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# run nginx as nginx
+kill "$(netstat -lptn | grep :8080 | awk '{print $NF}' | cut -d'/' -f1)"
+sed -i -E "s/(^\s*listen )(\[::]:)?([[:digit:]]*)(.*)/\1\28080\4/g" /etc/nginx/sites-available/default
+sed -i -re '0,/^#?user/cuser nginx;' /etc/nginx/nginx.conf
+service nginx stop
+chown nginx /etc/nginx/nginx.conf
+chmod u+w+r /etc/nginx/nginx.conf
+sudo -u nginx service nginx start
