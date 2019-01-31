@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Dumps all mysql databases and compresses archive
 set -e
 mysqldump --all-databases --events -uroot -p"$1" > backup.sql
