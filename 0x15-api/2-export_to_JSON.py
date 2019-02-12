@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """ requests all task list for user and exports to json file """
 
-import requests
 from sys import argv
 import json
+import requests
 
 
 if __name__ == "__main__" and len(argv) > 1:

@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """ requests all task list for user and exports to json file """
 
-import requests
 import json
+import requests
 
 
 if __name__ == "__main__":
