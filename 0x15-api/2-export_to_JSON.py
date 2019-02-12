@@ -11,7 +11,7 @@ if __name__ == "__main__" and len(argv) > 1:
     response = requests.get("https://jsonplaceholder.typicode.com/users/" +
                             argv[1])
     try:
-        name = response.json().pop("name")
+        name = response.json().pop("username")
     except KeyError:
         quit()
 
