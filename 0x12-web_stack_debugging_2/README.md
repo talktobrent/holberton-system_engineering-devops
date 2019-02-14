@@ -11,7 +11,6 @@
 <li>the script should run the <code>whoami</code> command under the user passed as an argument</li>
 <li>make sure to try your script by passing different users</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>0-iamsomeonelese</code></p>
   <h3>
     1. Run Nginx as Nginx

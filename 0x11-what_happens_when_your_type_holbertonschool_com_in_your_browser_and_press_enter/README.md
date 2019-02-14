@@ -16,7 +16,6 @@
 <li>Database</li>
 </ul>
 <p>Shares the URL of your blog post in your answer file and in the field below.</p>
-<p>Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.</p>
         <p>File: <code>0-blog_post</code></p>
   <h3>
     1. Everything&#39;s better with a pretty diagram
@@ -36,7 +35,6 @@
 <p>Gliffy is free and what I personally use, but feel free to use what fits you best.</p>
 <p>Some unrelated examples:</p>
 <p>Share the URL of your diagram image in your answer file and il the field below.</p>
-<p>Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.</p>
         <p>File: <code>1-what_happen_when_diagram</code></p>
   <h3>
     2. Contribute!
@@ -48,5 +46,4 @@
 <li>The pull request must bring meaningful value (not a typo correction or style improvement)</li>
 <li>Share the pull request URL in your answer file and in the field below</li>
 </ul>
-<p>Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.</p>
         <p>File: <code>2-contribution-to_what-happens-when_github_answer</code></p>

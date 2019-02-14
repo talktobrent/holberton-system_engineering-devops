@@ -74,7 +74,6 @@ Let&rsquo;s also add other subdomains to make our life easier, and write a Bash 
 <li>Nonexistent subdomains</li>
 </ul></li>
 </ul>
-<p>Example:</p>
         <p>File: <code>1-world_wide_web</code></p>
   <h3>
     2. HAproxy SSL termination
@@ -91,7 +90,6 @@ Let&rsquo;s also add other subdomains to make our life easier, and write a Bash 
 </ul>
 <p>The file <code>2-haproxy_ssl_termination</code> must be your HAproxy configuration file</p>
 <p>Make sure to install HAproxy 1.5 or higher, SSL termination is not available before v1.5.</p>
-<p>Example:</p>
         <p>File: <code>2-haproxy_ssl_termination</code></p>
   <h3>
     3. No loophole in your website traffic
@@ -105,5 +103,4 @@ Let&rsquo;s also add other subdomains to make our life easier, and write a Bash 
 <li>Share your HAproxy config as an answer file (<code>/etc/haproxy/haproxy.cfg</code>)</li>
 </ul>
 <p>The file <code>100-redirect_http_to_https</code> must be your HAproxy configuration file</p>
-<p>Example:</p>
         <p>File: <code>100-redirect_http_to_https</code></p>

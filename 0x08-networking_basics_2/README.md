@@ -40,7 +40,6 @@
 <li> <code>facebook.com</code> resolves to <code>8.8.8.8</code>.</li>
 <li> The checker is running on Docker, so make sure to read this</li>
 </ul>
-<p>Example:</p>
 <p>In this example we can see that:</p>
 <ul>
 <li>before running the script, <code>localhost</code> resolves to <code>127.0.0.1</code> and <code>facebook.com</code> resolves to <code>157.240.11.35</code></li>
@@ -52,7 +51,6 @@
     3. Show attached IPs
   </h3>
   <p>Write a Bash script that displays all active IPv4 IPs on the machine it&rsquo;s executed on.</p>
-<p>Example:</p>
 <p>Obviously, the IPs displayed may be different depending on which machine you are running the script on.</p>
 <p>Note that we can see our <code>localhost</code> IP :)</p>
         <p>File: <code>3-show_attached_IPs</code></p>

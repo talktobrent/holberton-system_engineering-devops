@@ -128,10 +128,7 @@ Try to explain every step you know of, and give examples. A total beginner shoul
 <li>Publish your blog post on Medium or LinkedIn</li>
 <li>Share your blog post at least on Twitter and LinkedIn</li>
 <li>Write professionally and intelligibly </li>
-<li>Please, remember that these blogs must be written in English to further your technical ability in a variety of settings</li>
 </ul>
-<p><strong><em>Remember, future employers will see your articles; take this seriously, and produce something that will be an asset to your future</em></strong></p>
-<p>When done, please add all urls below (blog post, tweet, etc.)</p>
   <h3>
     16. What is the difference between a hard link and a symbolic link?
   </h3>
@@ -141,8 +138,6 @@ Try to explain every step you know of, and give examples. A total beginner shoul
 <li>Publish your blog post on Medium or LinkedIn</li>
 <li>Share your blog post at least on Twitter and LinkedIn</li>
 </ul>
-<p>When done, please add all urls below (blog post, tweet, etc.)</p>
-<p>Please, remember that these blogs must be written in English to further your technical ability in a variety of settings</p>
   <h3>
     17. Everyone is a proponent of strong encryption
   </h3>

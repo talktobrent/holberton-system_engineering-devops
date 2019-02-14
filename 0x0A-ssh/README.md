@@ -33,7 +33,6 @@
 <li>Number of bits in the created key to be created 4096</li>
 <li>The created key must be protected by the passphrase <code>betty</code></li>
 </ul>
-<p>Example:</p>
         <p>File: <code>1-create_ssh_key_pair</code></p>
   <h3>
     2. Client configuration file
@@ -45,7 +44,6 @@ Share your SSH client configuration in your answer file.</p>
 <li>Your SSH client configuration must be configured to use the private key <code>~/.ssh/holberton</code></li>
 <li>Your SSH client configuration must be configured to refuse to authenticate using a password</li>
 </ul>
-<p>Example:</p>
 <p>In the example above, we can see that <code>ssh</code> tries to authenticate using <code>holberton</code> and does not try to authenticate using a password. You can replace <code>98.98.98.98</code> by the IP of your server for testing purposes.</p>
         <p>File: <code>2-ssh_config</code></p>
   <h3>

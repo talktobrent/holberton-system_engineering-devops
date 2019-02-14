@@ -43,7 +43,6 @@
 <li>Cannot scale if too much incoming traffic</li>
 </ul></li>
 </ul>
-<p>Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.</p>
         <p>File: <code>0-simple_web_stack</code></p>
   <h3>
     1. Distributed web infrastructure
@@ -75,7 +74,6 @@
 <li>No monitoring</li>
 </ul></li>
 </ul>
-<p>Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.</p>
         <p>File: <code>1-distributed_web_infrastructure</code></p>
   <h3>
     2. Secured and monitored web infrastructure
@@ -105,5 +103,4 @@
 <li>Why having servers with all the same components (database, web server and application server) might be a problem</li>
 </ul></li>
 </ul>
-<p>Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.</p>
         <p>File: <code>2-secured_and_monitored_web_infrastructure</code></p>

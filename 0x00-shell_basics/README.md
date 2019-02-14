@@ -12,13 +12,11 @@
     0. Where am I?
   </h3>
   <p>Write a script that prints the absolute path name of the current working directory.</p>
-<p>Example:</p>
         <p>File: <code>0-current_working_directory</code></p>
   <h3>
     1. What’s in there?
   </h3>
   <p>Display the contents list of your current directory.</p>
-<p>Example:</p>
         <p>File: <code>1-listit</code></p>
   <h3>
     2. There is no place like home
@@ -32,13 +30,11 @@
     3. The long format
   </h3>
   <p>Display current directory contents in a long format</p>
-<p>Example:</p>
         <p>File: <code>3-listfiles</code></p>
   <h3>
     4. Hidden files
   </h3>
   <p>Display current directory contents, including hidden files (starting with <code>.</code>). Use the long format.</p>
-<p>Example:</p>
         <p>File: <code>4-listmorefiles</code></p>
   <h3>
     5. I love numbers
@@ -49,19 +45,16 @@
 <li>with user and group IDs displayed numerically</li>
 <li>And hidden files (starting with .)</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>5-listfilesdigitonly</code></p>
   <h3>
     6. Welcome holberton
   </h3>
   <p>Create a script that creates a directory named <code>holberton</code> in the <code>/tmp/</code> directory.</p>
-<p>Example:</p>
         <p>File: <code>6-firstdirectory</code></p>
   <h3>
     7. Betty in Holberton
   </h3>
   <p>Move the file <code>betty</code> from <code>/tmp/</code> to <code>/tmp/holberton</code>.</p>
-<p>Example:</p>
         <p>File: <code>7-movethatfile</code></p>
   <h3>
     8. Bye bye Betty
@@ -70,13 +63,11 @@
 <ul>
 <li>The file <code>betty</code> is in <code>/tmp/holberton</code></li>
 </ul>
-<p>Example:</p>
         <p>File: <code>8-firstdelete</code></p>
   <h3>
     9. Bye bye Holberton
   </h3>
   <p>Delete the directory <code>holberton</code> that is in the <code>/tmp</code> directory.</p>
-<p>Example:</p>
         <p>File: <code>9-firstdirdeletion</code></p>
   <h3>
     10. Back to the future
