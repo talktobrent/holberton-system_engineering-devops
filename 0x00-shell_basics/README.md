@@ -83,7 +83,6 @@
     12. File type
   </h3>
   <p>Write a script that prints the type of the file named <code>iamafile</code>. The file <code>iamafile</code> will be in the <code>/tmp</code> directory when we will run your script.</p>
-<p>Example</p>
 <p>Note that depending on the file, the output of your script will be different.</p>
         <p>File: <code>12-file_type</code></p>
   <h3>
