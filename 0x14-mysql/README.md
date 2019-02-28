@@ -37,7 +37,6 @@
 <li>Once MySQL is installed on <code>web-01</code>, create a database containing at least one table with one record (name and what type of fields does not matter)</li>
 <li>Once MySQL replication is setup, add a new record in your table via MySQL on <code>web-01</code> and check if the record has been replicated in MySQL <code>web-02</code>. If you see it, it means your replication is working!</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>0-mysql_configuration_primary, 0-mysql_configuration_replica</code></p>
   <h3>
     1. MySQL backup
@@ -53,5 +52,4 @@
 <li>The user to connect to the MySQL database must be <code>root</code></li>
 <li>The Bash script accepts one argument that is the password used to connect to the MySQL database</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>1-mysql_backup</code></p>

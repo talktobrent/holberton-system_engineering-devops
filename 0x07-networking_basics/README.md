@@ -122,7 +122,6 @@ Most of the functionality in the OSI model exists in all communications systems.
 <li>That only shows listening sockets</li>
 <li>That shows the PID and name of the program to which each socket belongs</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>4-TCP_and_UDP_ports</code></p>
   <h3>
     5. Is the host on the network
@@ -135,7 +134,6 @@ Most of the functionality in the OSI model exists in all communications systems.
 <li>Displays <code>Usage: 5-is_the_host_on_the_network {IP_ADDRESS}</code> if no argument passed</li>
 <li>Ping the IP 5 times</li>
 </ul>
-<p>Example:</p>
 <p>It is interesting to look at the <code>time</code> value, which is the time that it took for the ICMP request to go to the <code>8.8.8.8</code> IP and come back to my host. The IP <code>8.8.8.8</code> is owned by Google, and the quickest roundtrip between my computer and Google was 7.57 ms which is pretty fast, which is a sign that the network path between my computer and Google&rsquo;s datacenter is in good shape. A slow ping would indicate a slow network.</p>
 <p>Next time you feel that your connection is slow, try the <code>ping</code> command to see what is going on!</p>
         <p>File: <code>5-is_the_host_on_the_network</code></p>

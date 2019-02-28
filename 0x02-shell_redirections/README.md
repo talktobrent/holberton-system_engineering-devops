@@ -25,26 +25,22 @@
     2. Let&#39;s display a file
   </h3>
   <p>Display the content of the <code>/etc/passwd</code> file.</p>
-<p>Example:</p>
         <p>File: <code>2-hellofile</code></p>
   <h3>
     3. What about 2?
   </h3>
   <p>Display the content of <code>/etc/passwd</code> and <code>/etc/hosts</code></p>
-<p>Example:</p>
         <p>File: <code>3-twofiles</code></p>
   <h3>
     4. Last lines of a file
   </h3>
   <p>Display the last 10 lines of <code>/etc/passwd</code></p>
-<p>Example:</p>
 <p>Tips from Dora Korpar (Cohort 0 San Francisco): &ldquo;Thinks of it as a cat, what is at the end of it?&rdquo;</p>
         <p>File: <code>4-lastlines</code></p>
   <h3>
     5. I&#39;d prefer the first ones actually
   </h3>
   <p>Display the first 10 lines of <code>/etc/passwd</code></p>
-<p>Example:</p>
         <p>File: <code>5-firstlines</code></p>
   <h3>
     6. Line #2

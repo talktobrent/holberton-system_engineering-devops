@@ -37,7 +37,6 @@
 <li>Second and N next lines display the title of completed tasks: Tab <code>TASK_TITLE</code> (with 1 tabulation + 1 space before)</li>
 </ul></li>
 </ul>
-<p>Example:</p>
         <p>File: <code>0-gather_data_from_an_API.py</code></p>
   <h3>
     1. Export to CSV
@@ -49,7 +48,6 @@
 <li>Format must be: <code>&quot;USER_ID&quot;,&quot;USERNAME&quot;,&quot;TASK_COMPLETED_STATUS&quot;,&quot;TASK_TITLE&quot;</code></li>
 <li>File name must be: <code>USER_ID.csv</code></li>
 </ul>
-<p>Example:</p>
         <p>File: <code>1-export_to_CSV.py</code></p>
   <h3>
     2. Export to JSON
@@ -61,7 +59,6 @@
 <li>Format must be: <code>{ &quot;USER_ID&quot;: [ {&quot;task&quot;: &quot;TASK_TITLE&quot;, &quot;completed&quot;: TASK_COMPLETED_STATUS, &quot;username&quot;: &quot;USERNAME&quot;}}, {&quot;task&quot;: &quot;TASK_TITLE&quot;, &quot;completed&quot;: TASK_COMPLETED_STATUS, &quot;username&quot;: &quot;USERNAME&quot;}}, ... ]}</code></li>
 <li>File name must be: <code>USER_ID.json</code></li>
 </ul>
-<p>Example:</p>
         <p>File: <code>2-export_to_JSON.py</code></p>
   <h3>
     3. Dictionary of list of dictionaries
@@ -73,5 +70,4 @@
 <li>Format must be: <code>{ &quot;USER_ID&quot;: [ {&quot;username&quot;: &quot;USERNAME&quot;, &quot;task&quot;: &quot;TASK_TITLE&quot;, &quot;completed&quot;: TASK_COMPLETED_STATUS}, {&quot;username&quot;: &quot;USERNAME&quot;, &quot;task&quot;: &quot;TASK_TITLE&quot;, &quot;completed&quot;: TASK_COMPLETED_STATUS}, ... ], &quot;USER_ID&quot;: [ {&quot;username&quot;: &quot;USERNAME&quot;, &quot;task&quot;: &quot;TASK_TITLE&quot;, &quot;completed&quot;: TASK_COMPLETED_STATUS}, {&quot;username&quot;: &quot;USERNAME&quot;, &quot;task&quot;: &quot;TASK_TITLE&quot;, &quot;completed&quot;: TASK_COMPLETED_STATUS}, ... ]}</code></li>
 <li>File name must be: <code>todo_all_employees.json</code></li>
 </ul>
-<p>Example:</p>
         <p>File: <code>3-dictionary_of_list_of_dictionaries.py</code></p>

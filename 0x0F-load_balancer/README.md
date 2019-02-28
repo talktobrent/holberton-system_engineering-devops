@@ -17,7 +17,6 @@
 <li>Ignore SC2154 for <code>shellcheck</code></li>
 </ul></li>
 </ul>
-<p>Example:</p>
 <p>If your server&rsquo;s hostnames are not properly configured, follow this tutorial.</p>
         <p>File: <code>0-custom_http_response-header</code></p>
   <h3>
@@ -32,5 +31,4 @@
 <li>Make sure that your servers are configured with the right hostnames: <code>[STUDENT_ID]-web-01</code> and <code>[STUDENT_ID]-web-02</code>. If not, follow this tutorial.</li>
 <li>For your answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>1-install_load_balancer</code></p>

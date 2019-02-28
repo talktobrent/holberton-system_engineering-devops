@@ -27,7 +27,6 @@
 <li><code>scp</code> must transfer the file to the user home directory <code>~/</code></li>
 <li>Strict host key checking must be disabled when using <code>scp</code> </li>
 </ul>
-<p>Example:</p>
 <p>In this example, I:</p>
 <ul>
 <li>remotely execute the <code>ls ~/</code> command via <code>ssh</code> to see what <code>~/</code> contains</li>
@@ -52,7 +51,6 @@
 <li>When querying Nginx at its root <code>/</code> with a GET request (requesting a page)  using <code>curl</code>, it must return a page that contains the string <code>Holberton School</code></li>
 <li>As an answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements</li>
 </ul>
-<p>Example:</p>
 <p>In this example <code>34.198.248.145</code> is the IP of my <code>web-01</code> server. If you want to query the Nginx that is locally installed on your server, you can use <code>curl 127.0.0.1</code>.</p>
 <p>If things are not going as expected, make sure to check out Nginx logs, they can be found in <code>/var/log/</code>.</p>
         <p>File: <code>1-install_nginx_web_server</code></p>
@@ -75,7 +73,6 @@
 <li>configure your DNS records with an A entry so that your root domain points to your <code>web-01</code> IP address</li>
 <li>go to your profile and enter your domain in the <code>Project website url</code> field</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>2-setup_a_domain_name</code></p>
   <h3>
     3. Redirection
@@ -91,7 +88,6 @@
 <li>You answer file should be a Bash script containing commands to automatically configure a Ubuntu machine to respect above requirements</li>
 <li>Using what you did with <code>1-install_nginx_web_server</code>, write <code>3-redirection</code> so that it configures a brand new Ubuntu machine to the requirements asked in this task</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>3-redirection</code></p>
   <h3>
     4. Not found page 404
@@ -103,5 +99,4 @@
 <li>The page must contain the string <code>Ceci n&#39;est pas une page</code></li>
 <li>Using what you did with <code>3-redirection</code>, write <code>4-not_found_page_404</code> so that it configures a brand new Ubuntu machine to the requirements asked in this task</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>4-not_found_page_404</code></p>

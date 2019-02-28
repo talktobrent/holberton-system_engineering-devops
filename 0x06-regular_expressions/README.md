@@ -8,7 +8,6 @@
 <li>The regular expression must match <code>Holberton</code></li>
 <li>Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>0-simply_match_holberton.rb</code></p>
   <h3>
     1. Repetition Token #0
@@ -54,7 +53,6 @@
 <li>The regular expression must be exactly matching a string that starts with <code>h</code> ends with <code>n</code> and can have any single character in between</li>
 <li>Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>5-beginning_and_end.rb</code></p>
   <h3>
     6. Call me maybe
@@ -64,7 +62,6 @@
 <ul>
 <li>The regular expression must match a 10 digit phone number</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>6-phone_number.rb</code></p>
   <h3>
     7. OMG WHY ARE YOU SHOUTING?
@@ -73,7 +70,6 @@
 <ul>
 <li>The regular expression must be only matching: capital letters</li>
 </ul>
-<p>Example:</p>
         <p>File: <code>7-OMG_WHY_ARE_YOU_SHOUTING.rb</code></p>
   <h3>
     8. Textme
@@ -90,7 +86,6 @@
 </ul></li>
 </ul>
 <p>You can find a log file here.</p>
-<p>Example:</p>
         <p>File: <code>100-textme.rb</code></p>
   <h3>
     9. Pass LinkedIn technical interview level0
@@ -101,6 +96,5 @@
 <li>Solve LinkedIn regex puzzle: https://engineering.linkedin.com/puzzle</li>
 <li>Provide as an answer file a screenshot containing your contact information, including your Holberton email address</li>
 </ul>
-<p>Example:</p>
 <p>Well, I guess I can get into LinkedIn hiring process:</p>
         <p>File: <code>101-passed_linkedin_regex_challenge.jpg</code></p>
