@@ -1,4 +1,4 @@
-# "Hello World" Update failure
+# Front Page Update Delay
 ## Issue Summary
 At 3:00 PM Eastern time, the "Hello World" home page was due to be updated to say, "Hello Earth". This update was not properly implemented, resulting in a delay of the rollout of the new home page, until 5:01 PM Eastern time. Users who landed on the home page during this time (12 unique visitors), received the old "Hello World" string, rather than the newly implemented "Hello Earth" string. This resulted in 7 inquiries to customer support, about the status of the home page, and why customers were not receiving the new string. The root cause of this failure was the breakage of a symbolic link in the sites-enabled directory.
 ## Timeline
