@@ -1,3 +1,4 @@
+# runs application server in virtual env to ser 0-hello_route
 description "Gunicorn application server running Airbnb-v2"
 
 start on runlevel [2345]
